@@ -39,7 +39,7 @@ variable "region" {
   default     = "us-west4"
 }
 locals {
-  instance_name = "my-first-vm-rt"
+  instance_name = "vm2-tf-ansi-poc"
   instance_zone = "us-central1-a"
   machine_type  = "e2-medium"
   image         = "ubuntu-os-cloud/ubuntu-2004-lts"
